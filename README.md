@@ -47,12 +47,18 @@ Full report link : [:open_file_folder:](https://github.com/Sarveshmeenwa/Text-Cl
 * Performed feature engineering to identify types of learners based on their level of engagement resulting into 4 types of learners : completers, bystanders, disengaging and auditors). The learners are stratified based on the video consumption decile, quiz completion amongst other learning analytics.
 ![image](https://user-images.githubusercontent.com/65787323/195653454-981edef4-3fba-445e-a394-112f0e33a063.png)
 
-* Performed a variety of statistical tests such as t-tests, one-way and two-way ANOVA, two-way ANOVA with interaction parameters,post-hoc test such as Tukey HSD to identify factors on video consumption.
+* Performed a variety of statistical tests such as t-tests, one-way and two-way ANOVA, two-way ANOVA with interaction parameters,step-wise regressions, post-hoc test such as Tukey HSD to identify factors on video consumption.
 * Identified factors influencing course completion by performing logistic regression and generating an Odds-Ratio table 
 ![image](https://user-images.githubusercontent.com/65787323/195657605-b81949c5-a9e2-4b7e-97cc-dd49c7e1651d.png)
-* Comparison of video consumption behavior between learners with survival analysis
+* Comparison of video consumption behavior between learners with survival analysis and conducted log-rank tests to obtain Hazard Ratio(H.R)
 ![image](https://user-images.githubusercontent.com/65787323/195659195-a40b910a-049f-4872-b399-2c7c8eb0e919.png)
+
 *Video consumption behaviours by the different types of learners(auditing,bystanders,completers and disengaged learners)*
+
+![image](https://user-images.githubusercontent.com/65787323/195659926-bf00a756-58ea-4fae-bee9-2c6432f2f183.png)
+
+*Differences in video consumption by gender,HDI and types of learners with hazard ratios.*
+
 
 Full report link : [:open_file_folder:](https://github.com/Sarveshmeenwa/Statistics/blob/main/Intermediate_statistic_Sarvesh_Meenowa_final%20(2)%20(1)%20(1).pdf)
 
