@@ -55,7 +55,7 @@ Full report link : [:open_file_folder:](https://github.com/Sarveshmeenwa/Text-Cl
 
 *Video consumption behaviours by the different types of learners(auditing,bystanders,completers and disengaged learners)*
 
-![image](https://user-images.githubusercontent.com/65787323/195659926-bf00a756-58ea-4fae-bee9-2c6432f2f183.png)
+![image](https://user-images.githubusercontent.com/65787323/195660315-6c5864ba-5422-4feb-bcd4-f773ad206ba4.png)
 
 *Differences in video consumption by gender,HDI and types of learners with hazard ratios.*
 
