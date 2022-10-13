@@ -20,6 +20,15 @@ I am a data science student in 4th year(M1/ING2) in France.
 ![image](https://user-images.githubusercontent.com/65787323/195637588-921d0ce0-c052-4005-9bdf-489ecf97eec4.png)
 ![image](https://user-images.githubusercontent.com/65787323/195637753-5e29b5d6-e686-46e4-81f1-643c79379ecc.png)
 
-## [Project 2: Text Classification](https://github.com/Sarveshmeenwa/Text-Classification---Restaurant-Reviews/blob/main/PA3c_15_Text_Classification.ipynb)
+## [Project 2: Restaurant reviews stance detection by performing text classification ](https://github.com/Sarveshmeenwa/Text-Classification---Restaurant-Reviews/blob/main/PA3c_15_Text_Classification.ipynb)
+
+* Calculated an inter-annotator agreement, using `Cohen's Kappa, k` to assess consensus between annotators of dataset and to check reliability of data
+* Pre-processing the features(text data) : convert all words to lowercase, remove all emoticons, substitute multiple spaces with single space, lemmatization, tokenization
+* Select couple of models by creating a machine pipeline to assess performance 
+* Hyper-parameter tuning using GridSearch-CV to optimize models and TF-IDF vectorizer 
+* Evaluation of models using ROC_AUC curve, classification report(precision, recall and f1-score)
+* Used a confusion metrix to know more about the errors the system makes and selected couple of errors to identify why model did not predict accurately.
+* Performed feature importance to know which features the model considers important
+
 
 Full report link : [:open_file_folder:](https://github.com/Sarveshmeenwa/Text-Classification---Restaurant-Reviews/blob/main/PA3c_15-Text_Classification-Report%20(2).pdf)
