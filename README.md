@@ -71,7 +71,9 @@ Full report link : [:open_file_folder:](https://github.com/Sarveshmeenwa/Statist
 * Visualizing the learned features in the VGG-16 model (the lowest level patterns that the model searches for in pictures are represented by the first convolutional layer. )
 
 ## [Project 5: Social Network Analysis of Juries within France Higher Education](https://github.com/Sarveshmeenwa/Social-Network-Analysis-Project/blob/main/SNA_code_rmd_ipynb.pdf)
-* Created multipartite graph of internal and external jury members based on the level of Jury to identify important jury members and partner institutions
+* Created multipartite graph of internal and external jury members based on the level of Jury 
+to identify important jury members and partner institutions
+
 ![image](https://user-images.githubusercontent.com/65787323/195664100-14f48105-73a4-4f68-8224-7120c5a903ed.png)
 
 ![image](https://user-images.githubusercontent.com/65787323/195664202-9b67141f-3aa0-4530-b300-33cffabd6c73.png)
@@ -82,7 +84,7 @@ Full report link : [:open_file_folder:](https://github.com/Sarveshmeenwa/Statist
 * Used Association Rule Mining(Apriori Algorithm) on more than 100,000 PhD manuscripts to find links between disciplines.
 ![image](https://user-images.githubusercontent.com/65787323/195676391-1fdf6c9e-8d15-45c9-a92c-44bebeb44bb3.png)
 ![image](https://user-images.githubusercontent.com/65787323/195676535-b47403ae-d161-4ab0-a39b-58fab611a2fa.png)
-
+* References between links : 
 ![image](https://user-images.githubusercontent.com/65787323/195676297-998b2220-9a7c-4c1c-8f3a-8d0dd381da67.png)
 
 
