@@ -87,4 +87,19 @@ to identify important jury members and partner institutions
 * References between links : 
 ![image](https://user-images.githubusercontent.com/65787323/195676297-998b2220-9a7c-4c1c-8f3a-8d0dd381da67.png)
 
-
+## [Project 6: Text Mining on Doctoral Dissertation and NLP to perform POS-Tagging and generate language exercises](https://github.com/Sarveshmeenwa/NLP-and-text-mining/blob/main/NLP%20-%20Pos%20tagging.ipynb)
+* Designed methodology to automatically detect the language of the thesis using stop words
+![image](https://user-images.githubusercontent.com/65787323/195678949-1694516e-2b5b-4c75-bf38-275e5627b323.png)
+* Processed the data and used TF-IDF and cosine to assess similarity between the theses
+* Used a bigram and a 3-gram model to find terms in Theses sorted by their TF-IDFs scores.
+![image](https://user-images.githubusercontent.com/65787323/195680059-176c9c5e-f9ab-47b8-b9e9-c07d0913f2a0.png)
+* Created a force-directed network based on cosine-similarity matrix of 10 theses 
+![image](https://user-images.githubusercontent.com/65787323/195680616-3d98e6c3-6aae-4bba-9aa4-7fbd845dc7a2.png)
+* Automatically created the necessary data for MCQ exercises (target language is English) with the following goals :
+        1.  identify 1 to 3 nouns in the sentences (among 4 words of the sentence)
+        2.  identify 1 to 3 pronouns in the sentences (among 4 words of the sentence)
+* Automatically create the necessary data for MCQ exer-cises (target language is German now) with the following goals:
+         1.  identify the gender of a noun
+         2.  2.  identify the case of a noun
+* Used a  conjugator-based  strategy(mlconjug-3) to the sentence corpus to automatically generate exercise based on this tool
+![image](https://user-images.githubusercontent.com/65787323/195682173-52a247a5-f1c5-40f4-9cae-15ad26ff2f4c.png)
