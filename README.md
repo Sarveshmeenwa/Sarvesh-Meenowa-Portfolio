@@ -96,10 +96,103 @@ to identify important jury members and partner institutions
 * Created a force-directed network based on cosine-similarity matrix of 10 theses 
 ![image](https://user-images.githubusercontent.com/65787323/195680616-3d98e6c3-6aae-4bba-9aa4-7fbd845dc7a2.png)
 * Automatically created the necessary data for MCQ exercises (target language is English) with the following goals :
+
+
         1.  identify 1 to 3 nouns in the sentences (among 4 words of the sentence)
+        
         2.  identify 1 to 3 pronouns in the sentences (among 4 words of the sentence)
 * Automatically create the necessary data for MCQ exer-cises (target language is German now) with the following goals:
+
+
          1.  identify the gender of a noun
-         2.  2.  identify the case of a noun
+         
+         2.  identify the case of a noun
 * Used a  conjugator-based  strategy(mlconjug-3) to the sentence corpus to automatically generate exercise based on this tool
 ![image](https://user-images.githubusercontent.com/65787323/195682173-52a247a5-f1c5-40f4-9cae-15ad26ff2f4c.png)
+
+## [Project 7: Data wrangling of French Theses Project](https://github.com/Sarveshmeenwa/Data-Wrangling-of-French-ThesesProject/blob/main/Final%20notebook%20(1).ipynb)
+* Investigate missing data and use an imputation technique to overcome this issue.
+![image](https://user-images.githubusercontent.com/65787323/195731067-5b2ebe0a-2469-456e-a4ec-5110a11f8ef5.png)
+* Performing exploratory data analysis(EDA) to check common issues such as :
+
+        1. How did the proportion of defences at the first of january evolve over the years ?
+        2. In the Author name, how common are homonyms? for e.g Cecile Martin
+        3. Check for issues in the supervisor’s ID
+* Identify outliers (such as finding supervisors who have mentored a surprisingly large number of PhD candidates) by thresholding the data over certain percentiles as well as checking if they are truly outliers or mistakes by further scraping the data to have some domain knowledge and cross-check scraped data with existing results.
+* Investigated how the choice  of  the language of the manuscript evolved over the past decades :
+![image](https://user-images.githubusercontent.com/65787323/195731821-5950397e-7bcf-4766-89b7-dc861561bb47.png)
+* Investigated what period of the year do PhD candidates tend to defend ?
+![image](https://user-images.githubusercontent.com/65787323/195731991-a0119394-3b4e-4750-bf0e-f6f91f931e43.png)
+* Use a probable gender derivation library from python on PhD candidate’s first name to be able to plot the evolution of gender among PhD candidates over the past decades.
+![image](https://user-images.githubusercontent.com/65787323/195732166-dc34a295-9595-4132-8bd6-f778691d0ebf.png)
+
+Full report link : [:open_file_folder:](https://github.com/Sarveshmeenwa/Data-Wrangling-of-French-ThesesProject/blob/main/Data_wrangling_sarvesh_meenowa%20(2)%20(1).pdf)
+
+## [Project 8: Clustering of Phi (φ) and Psi (ψ) Angles in Proteins](https://github.com/Sarveshmeenwa/Clustering/blob/main/Final-G_15-Assignment_03-Clustering.ipynb)
+* Used the K-means clustering method to cluster the phi and psi angle combinations in the data and techniques to assess optimal values of k such as : the elbow approach and Silhouette Coefficient.
+
+![image](https://user-images.githubusercontent.com/65787323/195733082-024324db-5f00-4211-9bed-3bdfaa3aea86.png)
+*Elbow plot*
+![image](https://user-images.githubusercontent.com/65787323/195733109-f6807623-d8e0-4ea1-aa4d-da5bcf54fe35.png)
+*Silhouette score*
+![image](https://user-images.githubusercontent.com/65787323/195733132-4de040b1-3205-4d7f-94dc-ea8ae92319fd.png)
+*Clustering using k-means*
+
+* Investigated methods to perform cluster validation such as using the Silhouette coefficient and by assessing the stability on subsets. This involves removing a random portion of points and check if the clustering does not change fundamentally.
+![image](https://user-images.githubusercontent.com/65787323/195733304-a54069ba-09ec-434c-b6d6-890fb8fa76ee.png)
+
+* Used DBSCAN to cluster the phi and psi angle combinations in the data by :
+
+
+        1.Motivating the choice of the minimum number of samples in the neighbourhood for a point to be considered as a core point
+        2.Motivating the choice of the maximum distance between two samples belonging to the same neighbourhood (“eps” or “epsilon”).
+       
+  ![image](https://user-images.githubusercontent.com/65787323/195733502-7a1526b8-3e7b-440a-8c6c-5ecdcdad257b.png)
+  
+* Compared clusters obtained from K-means and DBSCAN
+* Investigated whether the clusters found using DBSCAN are robust to small changes in the minimum number of samples in the neighbourhood for a point to be considered as a core point, and/or the choice of the maximum distance between two samples belonging to the same neighbourhood (“eps” or “epsilon”).
+
+## [Project 9: Dimensionality  reduction  and  clustering  techniques on artificially created data from dating apps](https://github.com/Sarveshmeenwa/Dimensionality-Reduction-Project/blob/main/dim_reduction_final_rmd.pdf)
+* Looked for correlations among variables by using both parametric and non-parametric techniques (Pearson vs. Spearman for correlation between continuous variables).
+* Perform a PCA on relevant continuous variables of the dataset and created a circle of correlations 
+
+![image](https://user-images.githubusercontent.com/65787323/195734468-52360edb-ff81-47c1-9007-e5a4d0a6fb7d.png)
+
+* Used scree-plots with both eigenvalues and percentage of variance explained as diagnostic tool to select number of principal components to keep
+
+![image](https://user-images.githubusercontent.com/65787323/195734916-ba6be7a4-94de-4958-afff-5eb321b99109.png)
+
+* Performed feature engineering by creating a PCA biplot and loadings table to find the latent variables.
+
+![image](https://user-images.githubusercontent.com/65787323/195735105-e3ae9e40-d32c-461b-a3dd-d1e3258e9824.png)
+
+
+* Performed MCA on categorical variables(as well as using scree-plots to diagnose the number of principal components to keep) and created biplots of the variables and variable categories to identify variables which are most correlated with each dimension.
+
+![image](https://user-images.githubusercontent.com/65787323/195735503-ba3e4b85-e996-4993-876c-75e6f79b7bd9.png)
+
+![image](https://user-images.githubusercontent.com/65787323/195735522-d2310155-5b7a-47e6-b04e-87ef200f1044.png)
+* Performed a k-means clustering on principal components of the analysis and justified  the  choice  of  the  number of clusters, notably through a scree plot as well performed HCPC on continuous variables.
+
+Full report link : [:open_file_folder:](https://github.com/Sarveshmeenwa/Dimensionality-Reduction-Project/blob/main/Dim_reduction_Sarvesh_Meenowa_final_report%20(2).pdf)
+
+## [Project 10: In Depth Understanding of Machine Learning Workflows and Decision-trees](https://github.com/Sarveshmeenwa/ML-Workflows-and-Decision-Trees/blob/main/PA1%2015%20_%20Introduction%20to%20ML%20workflow%20and%20decision%20trees.ipynb)
+
+* Understanding ML workflows :
+
+
+                Step 1: Read data
+                Step 2: Cross-validate after training the baseline classifier.
+                Step 3: Trying out several classifications and rerunning the cross-validation.
+                Step 4: To enhance the performance of the multiple classifiers, tune their hyperparameters. For instance, the maximum depth of the decision tree classifier may be controlled by a parameter, and the number of layers and neurons in each layer of the neural network classifier can be adjusted.
+
+
+* Investigated best split parameters of decision tree using 3 types of scores : information gain, majority sum and gini. Once the best scorer was found, the model was tuned with the best max_depth and also visualised to understand what is going on behind the scenes.
+
+![image](https://user-images.githubusercontent.com/65787323/195736559-462aaa9a-6c1e-44ec-aae2-775c03e09144.png)
+
+![image](https://user-images.githubusercontent.com/65787323/195736807-5f196b06-ac2a-4c74-b863-5e9c6a6762b5.png)
+
+
+
+        
