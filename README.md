@@ -111,6 +111,7 @@ to identify important jury members and partner institutions
 ![image](https://user-images.githubusercontent.com/65787323/195682173-52a247a5-f1c5-40f4-9cae-15ad26ff2f4c.png)
 
 ## [Project 7: Data wrangling of French Theses Project](https://github.com/Sarveshmeenwa/Data-Wrangling-of-French-ThesesProject/blob/main/Final%20notebook%20(1).ipynb)
+* Created a python web scraper to scrap the theses from theses.fr
 * Investigate missing data and use an imputation technique to overcome this issue.
 ![image](https://user-images.githubusercontent.com/65787323/195731067-5b2ebe0a-2469-456e-a4ec-5110a11f8ef5.png)
 * Performing exploratory data analysis(EDA) to check common issues such as :
