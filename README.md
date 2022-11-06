@@ -1,7 +1,13 @@
-# [Sarvesh Meenowa Portfolio](https://sarveshmeenwa.github.io/Sarvesh-Meenowa-Portfolio/)
-I am a data science student in 4th year(M1/ING2) in France.
+<h1 align="center">About me</h1>
+<p align="center">
+<strong>I am a 4th year Data Science Bachelor/2nd year Engineering student (ING-2/M1/Bac + 4) at CY Tech (ex-EISTI). I am looking for a 4-6 months internship in Data Science/machine learning starting from the start April 2023 and the possibility to extend it to an alternance for the academic year 2023-2024. </strong>
+</p>
 
-## [Project 1: Air Quality in France Analytics and Prediction Dashboard](https://github.com/Sarveshmeenwa/France-air-quality-dashboard-and-prediction)
+<h1 align="center">Recent Projects and Internship work regarding Data Science, Machine Learning and Deep Learning </h1>
+
+
+
+## [1. Air Quality in France Analytics and Prediction Dashboard](https://github.com/Sarveshmeenwa/France-air-quality-dashboard-and-prediction)
 * Implemented an end-to-end data science and machine learning project in the IoT(internet of things) field through IBM's CRISP-DM( Cross-Industry Standard Process for Data Mining) methodology as part of a 3 months data science internship at Anagra, France.
 * Scraped real-time regulated air pollutants data(using `Beautiful soup 4`) in France which is then transformed into an automated process where the data are stored in an SQL database.
 * Data wrangling and cleaning were performed on the dataset to give an up-to-date measure of the air quality in various places and departments in France
@@ -20,7 +26,7 @@ I am a data science student in 4th year(M1/ING2) in France.
 ![image](https://user-images.githubusercontent.com/65787323/195637588-921d0ce0-c052-4005-9bdf-489ecf97eec4.png)
 ![image](https://user-images.githubusercontent.com/65787323/195637753-5e29b5d6-e686-46e4-81f1-643c79379ecc.png)
 
-## [Project 2: Restaurant reviews stance detection by performing text classification ](https://github.com/Sarveshmeenwa/Text-Classification---Restaurant-Reviews/blob/main/PA3c_15_Text_Classification.ipynb)
+## [2. Restaurant reviews stance detection by performing text classification ](https://github.com/Sarveshmeenwa/Text-Classification---Restaurant-Reviews/blob/main/PA3c_15_Text_Classification.ipynb)
 
 * Calculated an inter-annotator agreement, using `Cohen's Kappa, k` to assess consensus between annotators of dataset and to check reliability of data
 * Pre-processing the features(text data) : convert all words to lowercase, remove all emoticons, substitute multiple spaces with single space, lemmatization, tokenization
@@ -43,7 +49,7 @@ I am a data science student in 4th year(M1/ING2) in France.
 Full report link : [:open_file_folder:](https://github.com/Sarveshmeenwa/Text-Classification---Restaurant-Reviews/blob/main/PA3c_15-Text_Classification-Report%20(2).pdf)
 
 
-## [Project 3: Investigating Learner Disengagement In Massive Open Online Courses(MOOCs)](https://github.com/Sarveshmeenwa/Statistics/blob/main/stats_markdown.pdf)
+## [3. Investigating Learner Disengagement In Massive Open Online Courses(MOOCs)](https://github.com/Sarveshmeenwa/Statistics/blob/main/stats_markdown.pdf)
 * Performed feature engineering to identify types of learners based on their level of engagement resulting into 4 types of learners : completers, bystanders, disengaging and auditors). The learners are stratified based on the video consumption decile, quiz completion amongst other learning analytics.
 ![image](https://user-images.githubusercontent.com/65787323/195653454-981edef4-3fba-445e-a394-112f0e33a063.png)
 
@@ -62,7 +68,7 @@ Full report link : [:open_file_folder:](https://github.com/Sarveshmeenwa/Text-Cl
 
 Full report link : [:open_file_folder:](https://github.com/Sarveshmeenwa/Statistics/blob/main/Intermediate_statistic_Sarvesh_Meenowa_final%20(2)%20(1)%20(1).pdf)
 
-## [Project 4: Car detection using Convolutional neural networks (CNNs)](https://github.com/Sarveshmeenwa/Image-Classification-Project/blob/main/PA5_15.ipynb)
+## [4. Car detection using Convolutional neural networks (CNNs)](https://github.com/Sarveshmeenwa/Image-Classification-Project/blob/main/PA5_15.ipynb)
 * General goals : practicing the creation of neural networks with the Keras library; gaining some actual experience using CNNs and picture data; looking into CNN overfitting; studying data augmentation and transfer learning techniques to enhance your CNN
 * Created a function to build the CNN with relevant output layer and loss function
 * Evaluated the model using test score loss, and identify when model is overfitting by looking at the training and validation loss for each Epoch
@@ -70,7 +76,7 @@ Full report link : [:open_file_folder:](https://github.com/Sarveshmeenwa/Statist
 * Applying a pre-trained convolutional neural network and VGG-16 as a feature extractor to perform transfer learning
 * Visualizing the learned features in the VGG-16 model (the lowest level patterns that the model searches for in pictures are represented by the first convolutional layer. )
 
-## [Project 5: Social Network Analysis of Juries within France Higher Education](https://github.com/Sarveshmeenwa/Social-Network-Analysis-Project/blob/main/SNA_code_rmd_ipynb.pdf)
+## [5. Social Network Analysis of Juries within France Higher Education](https://github.com/Sarveshmeenwa/Social-Network-Analysis-Project/blob/main/SNA_code_rmd_ipynb.pdf)
 * Created multipartite graph of internal and external jury members based on the level of Jury 
 to identify important jury members and partner institutions
 
@@ -87,7 +93,7 @@ to identify important jury members and partner institutions
 * References between links : 
 ![image](https://user-images.githubusercontent.com/65787323/195676297-998b2220-9a7c-4c1c-8f3a-8d0dd381da67.png)
 
-## [Project 6: Text Mining on Doctoral Dissertation and NLP to perform POS-Tagging and generate language exercises](https://github.com/Sarveshmeenwa/NLP-and-text-mining/blob/main/NLP%20-%20Pos%20tagging.ipynb)
+## [6. Text Mining on Doctoral Dissertation and NLP to perform POS-Tagging and generate language exercises](https://github.com/Sarveshmeenwa/NLP-and-text-mining/blob/main/NLP%20-%20Pos%20tagging.ipynb)
 * Designed methodology to automatically detect the language of the thesis using stop words
 ![image](https://user-images.githubusercontent.com/65787323/195678949-1694516e-2b5b-4c75-bf38-275e5627b323.png)
 * Processed the data and used TF-IDF and cosine to assess similarity between the theses
@@ -110,7 +116,7 @@ to identify important jury members and partner institutions
 * Used a  conjugator-based  strategy(mlconjug-3) to the sentence corpus to automatically generate exercise based on this tool
 ![image](https://user-images.githubusercontent.com/65787323/195682173-52a247a5-f1c5-40f4-9cae-15ad26ff2f4c.png)
 
-## [Project 7: Data wrangling of French Theses Project](https://github.com/Sarveshmeenwa/Data-Wrangling-of-French-ThesesProject/blob/main/Final%20notebook%20(1).ipynb)
+## [7. Data wrangling of French Theses Project](https://github.com/Sarveshmeenwa/Data-Wrangling-of-French-ThesesProject/blob/main/Final%20notebook%20(1).ipynb)
 * Created a python web scraper to scrap the theses from theses.fr
 * Investigate missing data and use an imputation technique to overcome this issue.
 ![image](https://user-images.githubusercontent.com/65787323/195731067-5b2ebe0a-2469-456e-a4ec-5110a11f8ef5.png)
@@ -129,7 +135,7 @@ to identify important jury members and partner institutions
 
 Full report link : [:open_file_folder:](https://github.com/Sarveshmeenwa/Data-Wrangling-of-French-ThesesProject/blob/main/Data_wrangling_sarvesh_meenowa%20(2)%20(1).pdf)
 
-## [Project 8: Clustering of Phi (φ) and Psi (ψ) Angles in Proteins](https://github.com/Sarveshmeenwa/Clustering/blob/main/Final-G_15-Assignment_03-Clustering.ipynb)
+## [8. Clustering of Phi (φ) and Psi (ψ) Angles in Proteins](https://github.com/Sarveshmeenwa/Clustering/blob/main/Final-G_15-Assignment_03-Clustering.ipynb)
 * Used the K-means clustering method to cluster the phi and psi angle combinations in the data and techniques to assess optimal values of k such as : the elbow approach and Silhouette Coefficient.
 
 ![image](https://user-images.githubusercontent.com/65787323/195733082-024324db-5f00-4211-9bed-3bdfaa3aea86.png)
@@ -153,7 +159,7 @@ Full report link : [:open_file_folder:](https://github.com/Sarveshmeenwa/Data-Wr
 * Compared clusters obtained from K-means and DBSCAN
 * Investigated whether the clusters found using DBSCAN are robust to small changes in the minimum number of samples in the neighbourhood for a point to be considered as a core point, and/or the choice of the maximum distance between two samples belonging to the same neighbourhood (“eps” or “epsilon”).
 
-## [Project 9: Dimensionality  reduction  and  clustering  techniques on artificially created data from dating apps](https://github.com/Sarveshmeenwa/Dimensionality-Reduction-Project/blob/main/dim_reduction_final_rmd.pdf)
+## [9. Dimensionality  reduction  and  clustering  techniques on artificially created data from dating apps](https://github.com/Sarveshmeenwa/Dimensionality-Reduction-Project/blob/main/dim_reduction_final_rmd.pdf)
 * Looked for correlations among variables by using both parametric and non-parametric techniques (Pearson vs. Spearman for correlation between continuous variables).
 * Perform a PCA on relevant continuous variables of the dataset and created a circle of correlations 
 
@@ -177,7 +183,7 @@ Full report link : [:open_file_folder:](https://github.com/Sarveshmeenwa/Data-Wr
 
 Full report link : [:open_file_folder:](https://github.com/Sarveshmeenwa/Dimensionality-Reduction-Project/blob/main/Dim_reduction_Sarvesh_Meenowa_final_report%20(2).pdf)
 
-## [Project 10: In Depth Understanding of Machine Learning Workflows and Decision-trees](https://github.com/Sarveshmeenwa/ML-Workflows-and-Decision-Trees/blob/main/PA1%2015%20_%20Introduction%20to%20ML%20workflow%20and%20decision%20trees.ipynb)
+## [10. In Depth Understanding of Machine Learning Workflows and Decision-trees](https://github.com/Sarveshmeenwa/ML-Workflows-and-Decision-Trees/blob/main/PA1%2015%20_%20Introduction%20to%20ML%20workflow%20and%20decision%20trees.ipynb)
 
 * Understanding ML workflows :
 
