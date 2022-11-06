@@ -1,9 +1,9 @@
 <h1 align="center">About me</h1>
-<p align="center">
+<p align="justify">
 <strong>I am a 4th year Data Science Bachelor/2nd year Engineering student (ING-2/M1/Bac + 4) at CY Tech (ex-EISTI). I am looking for a 4-6 months internship in Data Science/machine learning starting from the start April 2023 and the possibility to extend it to an alternance for the academic year 2023-2024. </strong>
 </p>
 
-<h1 align="center">Recent Projects and Internship work regarding Data Science, Machine Learning and Deep Learning </h1>
+<h1 align="jusitfy">Recent Projects and Internship work regarding Data Science, Machine Learning and Deep Learning </h1>
 
 
 
