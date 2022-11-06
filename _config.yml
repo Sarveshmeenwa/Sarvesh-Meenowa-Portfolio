@@ -1,4 +1,7 @@
 markdown : kramdown
 theme: jekyll-theme-slate
+title-heading: false
+name: SM Portfolio
+title: "Welcome to Sarvesh Meenowa's Portfolio"
 plugins:
   - jemoji
