@@ -2,7 +2,7 @@ markdown : kramdown
 theme: jekyll-theme-slate
 title-heading: false
 name: SM Portfolio
-title: "Welcome to Sarvesh Meenowa's Portfolio"
+title: "Welcome to Sarvesh's Portfolio"
 github:
   is_project_page: false
  
