@@ -315,3 +315,6 @@ Full report link : [:open_file_folder:](https://github.com/Sarveshmeenwa/Dimensi
   * Substituting Scipy's linear algebra functions for the standard Numpy mathematical operations in order to make linear algebra operations
   * Using sparse vectors are used.
   * BLAS functions are used in place of the vector scaling operations.
+
+  ## [12. Spam detection](https://github.com/Sarveshmeenwa/Spam-detection/blob/main/spam_detection.ipynb)
+
