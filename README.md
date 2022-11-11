@@ -316,5 +316,6 @@ Full report link : [:open_file_folder:](https://github.com/Sarveshmeenwa/Dimensi
   * Using sparse vectors are used.
   * BLAS functions are used in place of the vector scaling operations.
 
-  ## [12. Spam detection](https://github.com/Sarveshmeenwa/Spam-detection/blob/main/spam_detection.ipynb)
+
+## [12. Spam detection](https://github.com/Sarveshmeenwa/Spam-detection/blob/main/spam_detection.ipynb)
 
