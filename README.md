@@ -268,7 +268,54 @@ Full report link : [:open_file_folder:](https://github.com/Sarveshmeenwa/Dimensi
 
 </p>
 
+* Modified the criterion of decision tree regressor using variance reduction method
+* Investigated overfitting,underfitting and generalization gap on the modified decision tree regressor by comparison the MSE (Mean Squared Error) against Max_depth of the decision trees. Then compared the output by repeating the same procedure using sklearn's decision tree regressor, therefore providing the following comparison : 
+
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/65787323/201369297-e87f6970-059b-4ec4-91e5-465cba7efa78.png" alt="" width="500"/>
+</p>
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/65787323/201369663-10ee977a-fa4e-47fb-b7cd-6674ab1bbbf1.png" alt="" width="
+500"/>
+</p>
+
+## [11. Investigation of Random Forests for tabular data](https://github.com/Sarveshmeenwa/Random_Forests/blob/main/PA2_15-Random_Forest.ipynb)
+
+* Working with UCI's adult dataset to encode categorical features (non-numerical features) using one-hot encoding using sklearn's `DictVectorizer`.
+* Created a pipeline that first transformed the list of dictionaries into a numerical matrix, and then we used this matrix when training the classifier)
+
+          from sklearn.pipeline import make_pipeline
+  
+          pipeline = make_pipeline(
+            DictVectorizer(),
+            DecisionTreeClassifier()
+          )
+
+* Investigated underfitting and overfitting of random forest classifiers by modifying the ensemble size and max depth as well as answering the following questions 
+
+  * What's the difference between the curve for a decision tree and for a random forest with an ensemble size of 1, and why do we see this difference?
+  * What happens with the curve for random forests as the ensemble size grows?
+  * What happens with the best observed test set accuracy as the ensemble size grows?
+  * What happens with the training time as the ensemble size grows?
+
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/65787323/201375030-e389b264-62f6-46e0-a45e-85c4ff045b25.png" alt="" width="600" />
+</p>
+
+* Explored the feature importances in random forest classifiers from the UCI's Adult dataset
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/65787323/201375456-54a403b2-f32f-4cb6-b449-d46f5d74aaf5.png" alt="" width="600" />
+</p>
+
+## [12. Implementing linear classifiers : SVC and perceptron ](https://github.com/Sarveshmeenwa/Implementation-of-linear-classifiers/blob/main/PA_04_15.ipynb)
+
+* Using OOP, the [Pegasos algorithm](https://www.cs.huji.ac.il/~shais/papers/ShalevSiSrCo10.pdf) was implemented for training support vector classifiers, and its hinge loss function was used to classify the sentiment of customer reviews of music albums as positive or negative. Additionally, the log loss function and the logistic regression model were applied to the same data using OOP.
+
+* Addressed the bottlenecks in the algorithm by the calculations in linear algebra such as computing the dot product, scale the weight vector, and add the feature vector to the weight vector by :
+  * Substituting Scipy's linear algebra functions for the standard Numpy mathematical operations in order to make linear algebra operations
+  * Using sparse vectors are used.
+  * BLAS functions are used in place of the vector scaling operations.
 
 
+## [12. Spam detection](https://github.com/Sarveshmeenwa/Spam-detection/blob/main/spam_detection.ipynb)
 
-        
