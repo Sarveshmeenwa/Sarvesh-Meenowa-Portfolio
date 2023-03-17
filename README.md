@@ -8,7 +8,7 @@ I am a 4th year Data Science Bachelor/2nd year Engineering student (ING-2/Bac + 
 
 
 ##  1. Air Quality in France Analytics and Prediction Dashboard
-* Implemented an end-to-end data science and machine learning project in the IoT(internet of things) field through IBM's CRISP-DM( Cross-Industry Standard Process for Data Mining) methodology as part of a  months data science internship at Anagra, France.
+* Implemented an end-to-end data science and machine learning project in the IoT(internet of things) field through IBM's CRISP-DM( Cross-Industry Standard Process for Data Mining) methodology as part of a 4 months data science internship at Anagra, France.
 * Scraped real-time regulated air pollutants data(using `Beautiful soup 4`) in France which is then transformed into an automated process where the data are stored in an SQL database.
 * Data wrangling and cleaning were performed on the dataset to give an up-to-date measure of the air quality in various places and departments in France
 * Applied machine learning and time series algorithms(using `sktime`) to make predictions about the air quality in different locations of France.
