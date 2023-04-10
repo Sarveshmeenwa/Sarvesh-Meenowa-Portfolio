@@ -319,3 +319,13 @@ Full report link : [:open_file_folder:](https://github.com/Sarveshmeenwa/Dimensi
 
 ## [12. Spam detection](https://github.com/Sarveshmeenwa/Spam-detection/blob/main/spam_detection.ipynb)
 
+* Implement a Naïve Bayes classifier in Python that will classify emails into spam and non-spam (“ham”) classes using
+datasets available at https://spamassassin.apache.org/old/publiccorpus/. 
+There are three types of files in this location:
+• easy-ham: non-spam messages typically quite easy to differentiate from spam messages.
+• hard-ham: non-spam messages more difficult to differentiate 
+• spam: spam messages 
+
+* Best performance and confusion matrix for the latter : 
+ Spam versus easy-ham (Multinomial Naive Bayes)
+ ![image](https://user-images.githubusercontent.com/65787323/230802878-b3cd4b08-5213-4fef-8bba-d6cd62a8f61c.png)
