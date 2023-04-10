@@ -91,7 +91,7 @@ Full report link : [:open_file_folder:](https://github.com/Sarveshmeenwa/Text-Cl
 
 Full report link : [:open_file_folder:](https://github.com/Sarveshmeenwa/Statistics/blob/main/Intermediate_statistic_Sarvesh_Meenowa_final%20(2)%20(1)%20(1).pdf)
 
-## [4. Business Intelligence : Power BI Car Sales Dashboard]
+## 4. Business Intelligence : Power BI Car Sales Dashboard
 
 * Using on the type of car that was sold, the size of the batch, in number of cars (Car-batch-size), the cost per car (Unitcost), the country where the cars were sent, the customer, identify the KPIs and create a sales dashboard.
 
