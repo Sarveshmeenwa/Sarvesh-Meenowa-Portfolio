@@ -91,7 +91,22 @@ Full report link : [:open_file_folder:](https://github.com/Sarveshmeenwa/Text-Cl
 
 Full report link : [:open_file_folder:](https://github.com/Sarveshmeenwa/Statistics/blob/main/Intermediate_statistic_Sarvesh_Meenowa_final%20(2)%20(1)%20(1).pdf)
 
-## [4. Car detection using Convolutional neural networks (CNNs)](https://github.com/Sarveshmeenwa/Image-Classification-Project/blob/main/PA5_15.ipynb)
+## [4. Business Intelligence : Power BI Car Sales Dashboard]
+
+* Using on the type of car that was sold, the size of the batch, in number of cars (Car-batch-size), the cost per car (Unitcost), the country where the cars were sent, the customer, identify the KPIs and create a sales dashboard.
+
+* This is the overview page and we can navigate to the trend analysis page by clicking on the right arrow
+![image](https://user-images.githubusercontent.com/65787323/207575635-8f896bf1-0324-424a-96c4-c4a5c55f0bcd.png)
+
+
+* Trend Analysis page : Month over Month (MoM) change, Year over Year (YoY) change, Rolling average of total sales and anomaly detection
+![image](https://user-images.githubusercontent.com/65787323/207576046-573aeca5-1be7-432c-ae27-61f8863c60aa.png)
+
+* Report page using drill-through feature to obtain information regarding clients and employees who made important sales :
+![image](https://user-images.githubusercontent.com/65787323/230803428-80061761-e033-4a33-9c43-47d358d2ad2d.png)
+
+
+## [5. Car detection using Convolutional neural networks (CNNs)](https://github.com/Sarveshmeenwa/Image-Classification-Project/blob/main/PA5_15.ipynb)
 * General goals : practicing the creation of neural networks with the Keras library; gaining some actual experience using CNNs and picture data; looking into CNN overfitting; studying data augmentation and transfer learning techniques to enhance your CNN
 * Created a function to build the CNN with relevant output layer and loss function
 * Evaluated the model using test score loss, and identify when model is overfitting by looking at the training and validation loss for each Epoch
@@ -99,7 +114,7 @@ Full report link : [:open_file_folder:](https://github.com/Sarveshmeenwa/Statist
 * Applying a pre-trained convolutional neural network and VGG-16 as a feature extractor to perform transfer learning
 * Visualizing the learned features in the VGG-16 model (the lowest level patterns that the model searches for in pictures are represented by the first convolutional layer. )
 
-## [5. Social Network Analysis of Juries within France Higher Education](https://github.com/Sarveshmeenwa/Social-Network-Analysis-Project/blob/main/SNA_code_rmd_ipynb.pdf)
+## [6. Social Network Analysis of Juries within France Higher Education](https://github.com/Sarveshmeenwa/Social-Network-Analysis-Project/blob/main/SNA_code_rmd_ipynb.pdf)
 * Created multipartite graph of internal and external jury members based on the level of Jury 
 to identify important jury members and partner institutions
 <p align="center">
@@ -124,7 +139,7 @@ to identify important jury members and partner institutions
   <img src="https://user-images.githubusercontent.com/65787323/195676297-998b2220-9a7c-4c1c-8f3a-8d0dd381da67.png" alt="" width="600"/>
 </p>
 
-## [6. Text Mining on Doctoral Dissertation and NLP to perform POS-Tagging and generate language exercises](https://github.com/Sarveshmeenwa/NLP-and-text-mining/blob/main/NLP%20-%20Pos%20tagging.ipynb)
+## [7. Text Mining on Doctoral Dissertation and NLP to perform POS-Tagging and generate language exercises](https://github.com/Sarveshmeenwa/NLP-and-text-mining/blob/main/NLP%20-%20Pos%20tagging.ipynb)
 * Designed methodology to automatically detect the language of the thesis using stop words
 <p align="center">
   <img src="https://user-images.githubusercontent.com/65787323/195678949-1694516e-2b5b-4c75-bf38-275e5627b323.png" alt="" width="600"/>
@@ -163,7 +178,7 @@ to identify important jury members and partner institutions
   <img src="https://user-images.githubusercontent.com/65787323/195682173-52a247a5-f1c5-40f4-9cae-15ad26ff2f4c.png" alt="" width="600"/>
 </p>
 
-## [7. Data wrangling of French Theses Project](https://github.com/Sarveshmeenwa/Data-Wrangling-of-French-ThesesProject/blob/main/Final%20notebook%20(1).ipynb)
+## [8. Data wrangling of French Theses Project](https://github.com/Sarveshmeenwa/Data-Wrangling-of-French-ThesesProject/blob/main/Final%20notebook%20(1).ipynb)
 * Created a python web scraper to scrap the theses from theses.fr
 * Investigate missing data and use an imputation technique to overcome this issue.
 <p align="center">
@@ -193,7 +208,7 @@ to identify important jury members and partner institutions
 
 Full report link : [:open_file_folder:](https://github.com/Sarveshmeenwa/Data-Wrangling-of-French-ThesesProject/blob/main/Data_wrangling_sarvesh_meenowa%20(2)%20(1).pdf)
 
-## [8. Clustering of Phi (φ) and Psi (ψ) Angles in Proteins](https://github.com/Sarveshmeenwa/Clustering/blob/main/Final-G_15-Assignment_03-Clustering.ipynb)
+## [9. Clustering of Phi (φ) and Psi (ψ) Angles in Proteins](https://github.com/Sarveshmeenwa/Clustering/blob/main/Final-G_15-Assignment_03-Clustering.ipynb)
 * Used the K-means clustering method to cluster the phi and psi angle combinations in the data and techniques to assess optimal values of k such as : the elbow approach and Silhouette Coefficient. Then, used the optimal K value to plot the clusters
 <p align="center">
   <img src="https://user-images.githubusercontent.com/65787323/195733082-024324db-5f00-4211-9bed-3bdfaa3aea86.png" alt="" width="600"/>
@@ -219,7 +234,7 @@ Full report link : [:open_file_folder:](https://github.com/Sarveshmeenwa/Data-Wr
 * Compared clusters obtained from K-means and DBSCAN
 * Investigated whether the clusters found using DBSCAN are robust to small changes in the minimum number of samples in the neighbourhood for a point to be considered as a core point, and/or the choice of the maximum distance between two samples belonging to the same neighbourhood (“eps” or “epsilon”).
 
-## [9. Dimensionality  reduction  and  clustering  techniques on artificially created data from dating apps](https://github.com/Sarveshmeenwa/Dimensionality-Reduction-Project/blob/main/dim_reduction_final_rmd.pdf)
+## [10. Dimensionality  reduction  and  clustering  techniques on artificially created data from dating apps](https://github.com/Sarveshmeenwa/Dimensionality-Reduction-Project/blob/main/dim_reduction_final_rmd.pdf)
 * Looked for correlations among variables by using both parametric and non-parametric techniques (Pearson vs. Spearman for correlation between continuous variables).
 * Perform a PCA on relevant continuous variables of the dataset and created a circle of correlations 
 <p align="center">
@@ -250,7 +265,7 @@ Full report link : [:open_file_folder:](https://github.com/Sarveshmeenwa/Data-Wr
 
 Full report link : [:open_file_folder:](https://github.com/Sarveshmeenwa/Dimensionality-Reduction-Project/blob/main/Dim_reduction_Sarvesh_Meenowa_final_report%20(2).pdf)
 
-## [10. In Depth Understanding of Machine Learning Workflows and Decision-trees](https://github.com/Sarveshmeenwa/ML-Workflows-and-Decision-Trees/blob/main/PA1%2015%20_%20Introduction%20to%20ML%20workflow%20and%20decision%20trees.ipynb)
+## [11. In Depth Understanding of Machine Learning Workflows and Decision-trees](https://github.com/Sarveshmeenwa/ML-Workflows-and-Decision-Trees/blob/main/PA1%2015%20_%20Introduction%20to%20ML%20workflow%20and%20decision%20trees.ipynb)
 
 * Understanding ML workflows :
 
@@ -279,7 +294,7 @@ Full report link : [:open_file_folder:](https://github.com/Sarveshmeenwa/Dimensi
 500"/>
 </p>
 
-## [11. Investigation of Random Forests for tabular data](https://github.com/Sarveshmeenwa/Random_Forests/blob/main/PA2_15-Random_Forest.ipynb)
+## [12. Investigation of Random Forests for tabular data](https://github.com/Sarveshmeenwa/Random_Forests/blob/main/PA2_15-Random_Forest.ipynb)
 
 * Working with UCI's adult dataset to encode categorical features (non-numerical features) using one-hot encoding using sklearn's `DictVectorizer`.
 * Created a pipeline that first transformed the list of dictionaries into a numerical matrix, and then we used this matrix when training the classifier)
@@ -317,7 +332,7 @@ Full report link : [:open_file_folder:](https://github.com/Sarveshmeenwa/Dimensi
   * BLAS functions are used in place of the vector scaling operations.
 
 
-## [12. Spam detection](https://github.com/Sarveshmeenwa/Spam-detection/blob/main/spam_detection.ipynb)
+## [13. Spam detection](https://github.com/Sarveshmeenwa/Spam-detection/blob/main/spam_detection.ipynb)
 
 * Implement a Naïve Bayes classifier in Python that will classify emails into spam and non-spam (“ham”) classes using
 datasets available at https://spamassassin.apache.org/old/publiccorpus/. 
