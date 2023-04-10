@@ -322,7 +322,7 @@ Full report link : [:open_file_folder:](https://github.com/Sarveshmeenwa/Dimensi
   <img src="https://user-images.githubusercontent.com/65787323/201375456-54a403b2-f32f-4cb6-b449-d46f5d74aaf5.png" alt="" width="600" />
 </p>
 
-## [12. Implementing linear classifiers : SVC and perceptron ](https://github.com/Sarveshmeenwa/Implementation-of-linear-classifiers/blob/main/PA_04_15.ipynb)
+## [13. Implementing linear classifiers : SVC and perceptron ](https://github.com/Sarveshmeenwa/Implementation-of-linear-classifiers/blob/main/PA_04_15.ipynb)
 
 * Using OOP, the [Pegasos algorithm](https://www.cs.huji.ac.il/~shais/papers/ShalevSiSrCo10.pdf) was implemented for training support vector classifiers, and its hinge loss function was used to classify the sentiment of customer reviews of music albums as positive or negative. Additionally, the log loss function and the logistic regression model were applied to the same data using OOP.
 
@@ -332,7 +332,7 @@ Full report link : [:open_file_folder:](https://github.com/Sarveshmeenwa/Dimensi
   * BLAS functions are used in place of the vector scaling operations.
 
 
-## [13. Spam detection](https://github.com/Sarveshmeenwa/Spam-detection/blob/main/spam_detection.ipynb)
+## [14. Spam detection](https://github.com/Sarveshmeenwa/Spam-detection/blob/main/spam_detection.ipynb)
 
 * Implement a Naïve Bayes classifier in Python that will classify emails into spam and non-spam (“ham”) classes using
 datasets available at https://spamassassin.apache.org/old/publiccorpus/. 
