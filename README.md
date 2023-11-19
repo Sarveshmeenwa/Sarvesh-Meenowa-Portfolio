@@ -1,6 +1,6 @@
 <h1 align="center">About me</h1>
 <p align="justify">
-I am a 4th year Data Science Bachelor/2nd year Engineering student (ING-2/Bac + 4) at CY Tech (ex-EISTI). 
+I am a 2nd Year Master Student in Apprenticeship Program at TotalEnergies and Albert School. 
 </p>
 
 <h1 align="jusitfy">Recent Projects and Internship work regarding Data Science, Machine Learning and Deep Learning </h1>
