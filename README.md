@@ -1,6 +1,6 @@
 <h1 align="center">About me</h1>
 <p align="justify">
-I am a 2nd Year Master Student in Apprenticeship Program at TotalEnergies and Albert School. 
+Summary of school projects and internship
 </p>
 
 <h1 align="jusitfy">Recent Projects and Internship work regarding Data Science, Machine Learning and Deep Learning </h1>
